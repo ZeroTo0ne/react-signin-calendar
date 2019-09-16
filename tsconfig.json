@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "target": "es5",
+        "lib": ["dom","es6"],
+        "outDir": "lib/",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "declaration": true
+    },
+    "include": ["src/**/*","custom.d.ts"],
+    "exclude": [
+        "node_modules"
+    ]
+}

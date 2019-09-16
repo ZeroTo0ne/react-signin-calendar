@@ -1,0 +1,49 @@
+{
+  "name": "rc-signin-calendar",
+  "version": "0.0.3",
+  "main":"lib/main.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/ZeroTo0ne/react-signin-calendar.git",
+  "description": "it is a react signin calendar",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "keywords": [
+    "calendar",
+    "react-signin-calendar",
+    "signin-calendar",
+    "checkIn-calendar"
+  ],
+  "author": "ZeroToOne",
+  "license": "MIT",
+  "peerDependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
